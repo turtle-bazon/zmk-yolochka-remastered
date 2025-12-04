@@ -50,50 +50,60 @@
         default_layer {
             label = "Default";
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E  &kp R             &kp T                        &kp Y  &kp U              &kp I      &kp O    &kp P     &kp BACKSPACE
-&kp LEFT_ALT    &kp A  &kp S  &kp D  &kp F             &kp G                        &kp H  &kp J              &kp K      &kp L    &kp SEMI  &kp RIGHT_ALT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V             &kp B                        &kp N  &kp M              &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                                     &kp LEFT_CONTROL  &mo 1  &kp SPACE  &kp SPACE  &mo 1  &kp RIGHT_CONTROL
+&kp TAB         &kp Q  &kp W      &kp E    &kp R     &kp T
+&kp Y           &kp U  &kp I      &kp O    &kp P     &kp BACKSPACE
+&kp LEFT_ALT    &kp A  &kp S      &kp D    &kp F     &kp G
+&kp H           &kp J  &kp K      &kp L    &kp SEMI  &kp RIGHT_ALT
+&kp LEFT_SHIFT  &kp Z  &kp X      &kp C    &kp V     &kp B
+&kp N           &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
             >;
         };
 
         upper {
             label = "Upper";
             bindings = <
-&kp ESC  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_0                         &kp HOME        &kp UP_ARROW      &kp END            &kp MINUS      &kp EQUAL         &kp DELETE
-&trans   &caps_word    &trans        &kp GRAVE     &kp PAGE_UP   &kp PAGE_DOWN                        &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp PERIOD     &kp SINGLE_QUOTE  &trans
-&trans   &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                         &kp INSERT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp KP_SLASH      &trans
-                                                   &trans        &mo 3          &kp ENTER  &kp ENTER  &mo 3           &trans
+&kp ESC         &kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3   &kp NUMBER_4      &kp NUMBER_0
+&kp HOME        &kp UP_ARROW      &kp END            &kp MINUS      &kp EQUAL         &kp DELETE
+&trans          &caps_word        &trans             &kp GRAVE      &kp PAGE_UP       &kp PAGE_DOWN
+&kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp PERIOD     &kp SINGLE_QUOTE  &trans
+&trans          &kp NUMBER_5      &kp NUMBER_6       &kp NUMBER_7   &kp NUMBER_8      &kp NUMBER_9
+&kp INSERT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp KP_SLASH      &trans
             >;
         };
 
         kb_control_layer {
             label = "KBCTRL";
             bindings = <
-&bootloader     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none  &bootloader
-&sys_reset      &none         &none         &none         &none         &bt BT_NXT                  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &none  &sys_reset
-&bt BT_CLR_ALL  &bt BT_CLR    &none         &none         &none         &bt BT_PRV                  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &none  &studio_unlock
-                                                          &none         &none         &to 0  &to 0  &none            &none
+&bootloader      &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4
+&rgb_ug RGB_ON   &rgb_ug RGB_OFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none         &bootloader
+&sys_reset       &none            &none            &none            &none         &bt BT_NXT
+&rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &none         &sys_reset
+&bt BT_CLR_ALL   &bt BT_CLR       &none            &none            &none         &bt BT_PRV
+&rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &none         &studio_unlock
             >;
         };
 
         flayer {
             label = "F";
             bindings = <
-&kp F11  &kp F1  &kp F2  &kp F3  &kp F4  &kp F10                  &check_bat  &trans  &trans  &kp F14  &kp F15  &trans
-&kp F12  &trans  &trans  &trans  &trans  &to 2                    &to 2       &trans  &trans  &kp F16  &kp F17  &trans
-&trans   &kp F5  &kp F6  &kp F7  &kp F8  &kp F9                   &trans      &trans  &trans  &trans   &trans   &trans
-                                 &trans  &trans   &trans  &trans  &trans      &trans
+&kp F11  &kp F1  &kp F2  &kp F3   &kp F4   &kp F10
+&none    &trans  &trans  &kp F14  &kp F15  &trans
+&kp F12  &trans  &trans  &trans   &trans   &to 2
+&to 2    &trans  &trans  &kp F16  &kp F17  &trans
+&trans   &kp F5  &kp F6  &kp F7   &kp F8   &kp F9
+&trans   &trans  &trans  &trans   &trans   &trans
             >;
         };
 
         nrow_plus_layer {
             label = "NRowPlus";
             bindings = <
-&trans  &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5                      &kp NUMBER_6      &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0      &trans
-&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                  &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &trans
-&trans  &trans            &trans            &trans            &trans            &trans                            &trans            &trans            &trans            &trans            &trans            &trans
-                                                              &trans            &trans            &trans  &trans  &trans            &trans
+&trans            &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5
+&kp NUMBER_6      &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0      &trans
+&trans            &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)
+&kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &trans
+&trans            &trans            &trans            &trans            &trans            &trans
+&trans            &trans            &trans            &trans            &trans            &trans
             >;
         };
     };

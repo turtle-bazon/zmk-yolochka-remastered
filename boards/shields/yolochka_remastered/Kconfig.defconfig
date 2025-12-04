@@ -4,13 +4,13 @@
 if SHIELD_YOLOCHKA_REMASTERED
 
 config ZMK_KEYBOARD_NAME
-    default "Yolochka Remastered"
+    default "YolochkaR"
 
 config ZMK_SPLIT
 	default n
 
 config USB_DEVICE_PRODUCT
-	default "Yolochka Remastered"
+	default "YolochkaR"
 
 config USB_DEVICE_VID
 	default "0x0000"

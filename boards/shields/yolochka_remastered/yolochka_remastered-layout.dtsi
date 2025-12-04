@@ -1,0 +1,64 @@
+#include <physical_layouts.dtsi>
+
+/ {
+    yolochka_remastered_layout: yolochka_remastered_layout_0 {
+        compatible = "zmk,physical-layout";
+        display-name = "Default";
+        kscan = <&kscan0>;
+        transform = <&default_transform>;
+
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100   50    0       0     0     0>
+            , <&key_physical_attrs 100 100  150    0       0     0     0>
+            , <&key_physical_attrs 100 100  250    0       0     0     0>
+            , <&key_physical_attrs 100 100  350    0       0     0     0>
+            , <&key_physical_attrs 100 100  450    0       0     0     0>
+            , <&key_physical_attrs 100 100  700    0       0     0     0>
+            , <&key_physical_attrs 100 100  800    0       0     0     0>
+            , <&key_physical_attrs 100 100  900    0       0     0     0>
+            , <&key_physical_attrs 100 100 1000    0       0     0     0>
+            , <&key_physical_attrs 100 100 1100    0       0     0     0>
+            , <&key_physical_attrs 100 100   25  100       0     0     0>
+            , <&key_physical_attrs 100 100  125  100       0     0     0>
+            , <&key_physical_attrs 100 100  225  100       0     0     0>
+            , <&key_physical_attrs 100 100  325  100       0     0     0>
+            , <&key_physical_attrs 100 100  425  100       0     0     0>
+            , <&key_physical_attrs 100 100  725  100       0     0     0>
+            , <&key_physical_attrs 100 100  825  100       0     0     0>
+            , <&key_physical_attrs 100 100  925  100       0     0     0>
+            , <&key_physical_attrs 100 100 1025  100       0     0     0>
+            , <&key_physical_attrs 100 100 1125  100       0     0     0>
+            , <&key_physical_attrs 100 100    0  200       0     0     0>
+            , <&key_physical_attrs 100 100  100  200       0     0     0>
+            , <&key_physical_attrs 100 100  200  200       0     0     0>
+            , <&key_physical_attrs 100 100  300  200       0     0     0>
+            , <&key_physical_attrs 100 100  400  200       0     0     0>
+            , <&key_physical_attrs 100 100  750  200       0     0     0>
+            , <&key_physical_attrs 100 100  850  200       0     0     0>
+            , <&key_physical_attrs 100 100  950  200       0     0     0>
+            , <&key_physical_attrs 100 100 1050  200       0     0     0>
+            , <&key_physical_attrs 100 100 1150  200       0     0     0>
+            , <&key_physical_attrs 100 100  275  300       0     0     0>
+            , <&key_physical_attrs 100 100  375  300       0     0     0>
+            , <&key_physical_attrs 100 100  475  300       0     0     0>
+            , <&key_physical_attrs 100 100  675  300       0     0     0>
+            , <&key_physical_attrs 100 100  775  300       0     0     0>
+            , <&key_physical_attrs 100 100  875  300       0     0     0>
+            ;
+    };
+
+    yolochka_remastered_position_map {
+        compatible = "zmk,physical-layout-position-map";
+        complete;
+        origin {
+            physical-layout = <&yolochka_remastered_layout>;
+            positions
+                = < 0  1  2  3  4  5  6  7  8  9>
+                , <10 11 12 13 14 15 16 17 18 19>
+                , <20 21 22 23 24 25 26 27 28 29>
+                , <      30 31 32 33 34 35      >;
+        };
+
+    };
+};
+

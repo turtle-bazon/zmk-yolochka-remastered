@@ -1,0 +1,13 @@
+file_format: "1"
+id: yolochka_remastered
+name: yolochka_remstered
+type: shield
+url: https://github.com/turtle/yolochka-remastered
+requires: [ pro_micro ]
+features:
+- keys
+- underglow
+- studio
+outputs:
+- usb
+- ble

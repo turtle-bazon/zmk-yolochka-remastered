@@ -1,0 +1,25 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_YOLOCHKA_REMASTERED
+
+config ZMK_KEYBOARD_NAME
+    default "Yolochka Remastered"
+
+config ZMK_SPLIT
+	default n
+
+config USB_DEVICE_PRODUCT
+	default "Yolochka Remastered"
+
+config USB_DEVICE_VID
+	default "0x0000"
+
+config USB_DEVICE_PID
+	default "0xFEED"
+
+config USB_DEVICE_MANUFACTURER
+	default "turtle"
+
+endif
+

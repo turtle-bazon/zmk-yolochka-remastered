@@ -59,20 +59,20 @@
         left-finger {
             label = "LeftFinger";
             bindings = <
-&kp Q      &kp W         &kp E           &kp R             &kp T         &kp HOME    &kp UP            &kp RIGHT          &kp MINUS      &kp EQUAL
-&kp A      &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT    &kp DOWN          &kp END            &kp DOT        &kp SINGLE_QUOTE
-&kp Z      &kp X         &kp C           &kp V             &kp B         &kp INSERT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp KP_SLASH
-&kp SPACE  &none         &kp DELETE      &kp ESC           &mo 3         &kp ENTER
+&trans  &trans        &trans          &trans            &trans        &kp HOME    &kp UP            &kp RIGHT          &kp MINUS      &kp EQUAL
+&trans  &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT    &kp DOWN          &kp END            &kp DOT        &kp SINGLE_QUOTE
+&trans  &trans        &trans          &trans            &trans        &kp INSERT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp KP_SLASH
+&trans  &none         &trans          &kp ESC           &mo 3         &kp ENTER
             >;
         };
 
         right-finger {
             label = "RightFinger";
             bindings = <
-&kp Q      &kp W  &kp E       &kp R        &kp T          &kp Y         &kp U              &kp I            &kp O          &kp P
-&kp A      &kp S  &kp GRAVE   &kp PAGE_UP  &kp PAGE_DOWN  &kp LEFT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp RIGHT_GUI  &kp SEMICOLON
-&kp Z      &kp X  &kp C       &kp V        &kp B          &kp N         &kp M              &kp COMMA        &kp PERIOD     &kp SLASH
-&kp ENTER  &mo 3  &kp DELETE  &kp ESC      &none          &kp END
+&kp Q      &kp W  &kp E       &kp R        &kp T          &trans        &trans             &trans           &trans         &trans
+&kp A      &kp S  &kp GRAVE   &kp PAGE_UP  &kp PAGE_DOWN  &kp LEFT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp RIGHT_GUI  &trans
+&kp Z      &kp X  &kp C       &kp V        &kp B          &trans        &trans             &trans           &trans         &trans
+&kp ENTER  &mo 3  &kp DELETE  &kp ESC      &none          &trans
             >;
         };
 

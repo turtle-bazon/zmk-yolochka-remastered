@@ -31,12 +31,12 @@
 
         ju-enter {
             bindings = <&kp ENTER>;
-            key-positions = <19 7>;
+            key-positions = <6 16>;
         };
 
         fr-enter {
             bindings = <&kp ENTER>;
-            key-positions = <16 4>;
+            key-positions = <13 3>;
         };
     };
 };

@@ -59,8 +59,8 @@
         left-finger {
             label = "LeftFinger";
             bindings = <
-&kp Q      &kp W         &kp E           &kp R             &kp T         &kp HOME    &kp UP            &kp RIGHT          &kp O          &kp P
-&kp A      &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT    &kp DOWN          &kp END            &kp L          &kp SEMICOLON
+&kp Q      &kp W         &kp E           &kp R             &kp T         &kp HOME    &kp UP            &kp RIGHT          &kp MINUS      &kp EQUAL
+&kp A      &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT    &kp DOWN          &kp END            &kp DOT        &kp SINGLE_QUOTE
 &kp Z      &kp X         &kp C           &kp V             &kp B         &kp INSERT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp KP_SLASH
 &kp SPACE  &none         &kp DELETE      &kp ESC           &none         &kp ENTER
             >;

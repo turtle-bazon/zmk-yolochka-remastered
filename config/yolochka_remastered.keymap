@@ -59,20 +59,20 @@
         left-finger {
             label = "LeftFinger";
             bindings = <
-&kp Q      &kp W          &kp E           &kp R             &kp T         &kp Y      &kp U  &kp I      &kp O       &kp P
-&kp A      &kp LEFT_GUI   &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp H      &kp J  &kp K      &kp L       &kp SEMICOLON
-&kp Z      &kp X          &kp C           &kp V             &kp B         &kp N      &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&kp SPACE  &kp BACKSPACE  &kp DELETE      &kp ESC           &kp RETURN    &kp ENTER
+&kp Q      &kp W         &kp E           &kp R             &kp T         &kp HOME   &kp UP    &kp END    &kp O       &kp P
+&kp A      &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT   &kp DOWN  &kp RIGHT  &kp L       &kp SEMICOLON
+&kp Z      &kp X         &kp C           &kp V             &kp B         &kp N      &kp M     &kp COMMA  &kp PERIOD  &kp SLASH
+&kp SPACE  &none         &kp DELETE      &kp ESC           &none         &kp ENTER
             >;
         };
 
         right-finger {
             label = "RightFinger";
             bindings = <
-&kp Q      &kp W          &kp E       &kp R    &kp T       &kp Y         &kp U              &kp I            &kp O          &kp P
-&kp A      &kp S          &kp D       &kp F    &kp G       &kp LEFT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp RIGHT_GUI  &kp SEMICOLON
-&kp Z      &kp X          &kp C       &kp V    &kp B       &kp N         &kp M              &kp COMMA        &kp PERIOD     &kp SLASH
-&kp ENTER  &kp BACKSPACE  &kp DELETE  &kp ESC  &kp RETURN  &kp END
+&kp Q      &kp W  &kp E       &kp R    &kp T  &kp Y         &kp U              &kp I            &kp O          &kp P
+&kp A      &kp S  &kp D       &kp F    &kp G  &kp LEFT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp RIGHT_GUI  &kp SEMICOLON
+&kp Z      &kp X  &kp C       &kp V    &kp B  &kp N         &kp M              &kp COMMA        &kp PERIOD     &kp SLASH
+&kp ENTER  &none  &kp DELETE  &kp ESC  &none  &kp END
             >;
         };
 

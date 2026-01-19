@@ -7,7 +7,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/rgb.h>
 
 #define DEF 0
 #define LWR 1
@@ -50,30 +49,30 @@
         default_layer {
             label = "Default";
             bindings = <
-&kp Q              &kp W            &kp E       &kp R    &kp T       &kp Y    &kp U  &kp I      &kp O       &kp P
-&kp A              &kp S            &kp D       &kp F    &kp G       &kp H    &kp J  &kp K      &kp L       &kp SEMICOLON
-&kp Z              &kp X            &kp C       &kp V    &kp B       &kp N    &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&ext_power EP_TOG  &rgb_ug RGB_TOG  &kp DELETE  &kp ESC  &kp RETURN  &kp END
+&kp Q              &kp W  &kp E      &kp R      &kp T  &kp Y    &kp U  &kp I      &kp O       &kp P
+&kp A              &kp S  &kp D      &kp F      &kp G  &kp H    &kp J  &kp K      &kp L       &kp SEMICOLON
+&kp Z              &kp X  &kp C      &kp V      &kp B  &kp N    &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
+&ext_power EP_TOG  &mo 1  &kp SPACE  &kp SPACE  &mo 2  &kp END
             >;
         };
 
-        upper {
-            label = "Upper";
+        left-finger {
+            label = "LeftFinger";
             bindings = <
-&kp Q      &kp W          &kp E       &kp R    &kp T       &kp Y    &kp U  &kp I      &kp O       &kp P
-&kp A      &kp S          &kp D       &kp F    &kp G       &kp H    &kp J  &kp K      &kp L       &kp SEMICOLON
-&kp Z      &kp X          &kp C       &kp V    &kp B       &kp N    &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&kp SPACE  &kp BACKSPACE  &kp DELETE  &kp ESC  &kp RETURN  &kp END
+&kp Q      &kp W          &kp E           &kp R             &kp T         &kp Y      &kp U  &kp I      &kp O       &kp P
+&kp A      &kp LEFT_GUI   &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp H      &kp J  &kp K      &kp L       &kp SEMICOLON
+&kp Z      &kp X          &kp C           &kp V             &kp B         &kp N      &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
+&kp SPACE  &kp BACKSPACE  &kp DELETE      &kp ESC           &kp RETURN    &kp ENTER
             >;
         };
 
-        kb_control_layer {
-            label = "KBCTRL";
+        right-finger {
+            label = "RightFinger";
             bindings = <
-&kp Q      &kp W          &kp E       &kp R    &kp T       &kp Y    &kp U  &kp I      &kp O       &kp P
-&kp A      &kp S          &kp D       &kp F    &kp G       &kp H    &kp J  &kp K      &kp L       &kp SEMICOLON
-&kp Z      &kp X          &kp C       &kp V    &kp B       &kp N    &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&kp SPACE  &kp BACKSPACE  &kp DELETE  &kp ESC  &kp RETURN  &kp END
+&kp Q      &kp W          &kp E       &kp R    &kp T       &kp Y         &kp U              &kp I            &kp O          &kp P
+&kp A      &kp S          &kp D       &kp F    &kp G       &kp LEFT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp RIGHT_GUI  &kp SEMICOLON
+&kp Z      &kp X          &kp C       &kp V    &kp B       &kp N         &kp M              &kp COMMA        &kp PERIOD     &kp SLASH
+&kp ENTER  &kp BACKSPACE  &kp DELETE  &kp ESC  &kp RETURN  &kp END
             >;
         };
 

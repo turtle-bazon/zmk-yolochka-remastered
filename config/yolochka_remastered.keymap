@@ -51,7 +51,7 @@
 &kp Q  &kp W  &kp E      &kp R      &kp T  &kp Y  &kp U  &kp I      &kp O       &kp P
 &kp A  &kp S  &kp D      &kp F      &kp G  &kp H  &kp J  &kp K      &kp L       &kp SEMICOLON
 &kp Z  &kp X  &kp C      &kp V      &kp B  &kp N  &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&none  &mo 1  &kp SPACE  &kp SPACE  &mo 2  &none
+&mo 2  &mo 1  &kp SPACE  &kp SPACE  &mo 2  &mo 1
             >;
         };
 
@@ -61,7 +61,7 @@
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4      &kp NUMBER_0  &kp HOME    &kp UP            &kp RIGHT          &kp MINUS      &kp EQUAL
 &none         &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT    &kp DOWN          &kp END            &kp DOT        &kp SINGLE_QUOTE
 &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8      &kp NUMBER_9  &kp INSERT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp KP_SLASH
-&mo 2         &none         &none           &none             &mo 3         &kp ENTER
+&none         &none         &none           &none             &mo 3         &kp ENTER
             >;
         };
 
@@ -71,7 +71,7 @@
 &kp ESCAPE  &none  &none      &none        &kp TAB        &kp DELETE    &none              &none            &none          &kp BACKSPACE
 &none       &none  &kp GRAVE  &kp PAGE_UP  &kp PAGE_DOWN  &kp LEFT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp RIGHT_GUI  &none
 &none       &none  &none      &none        &none          &none         &none              &none            &none          &none
-&kp ENTER   &mo 3  &none      &none        &none          &mo 1
+&kp ENTER   &mo 3  &none      &none        &none          &none
             >;
         };
 

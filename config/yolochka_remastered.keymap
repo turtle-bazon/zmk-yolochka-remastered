@@ -5,7 +5,9 @@
  */
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/rgb.h>
 
 #define DEF 0
 #define LWR 1
@@ -79,7 +81,7 @@
             label = "F";
             bindings = <
 &kp F1   &kp F2   &kp F3  &kp F4  &kp F10  &none  &none  &none  &kp F14  &kp F15
-&kp F11  &kp F12  &none   &none   &none    &none  &none  &none  &kp F16  &kp F17
+&kp F11  &kp F12  &none   &none   &to 4    &to 4  &none  &none  &kp F16  &kp F17
 &kp F5   &kp F6   &kp F7  &kp F8  &kp F9   &none  &none  &none  &none    &none
 &none    &none    &none   &none   &none    &none
             >;
@@ -88,10 +90,10 @@
         kb_control_layer {
             label = "KBCTRL";
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none
+&bootloader     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &bootloader
+&sys_reset      &none         &none         &none         &bt BT_NXT    &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &sys_reset
+&bt BT_CLR_ALL  &bt BT_CLR    &none         &none         &bt BT_PRV    &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &studio_unlock
+&none           &none         &to 0         &to 0         &none         &none
             >;
         };
     };

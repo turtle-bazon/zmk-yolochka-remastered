@@ -61,7 +61,7 @@
             label = "LeftFinger";
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4      &kp NUMBER_0  &kp HOME    &kp UP            &kp RIGHT          &kp MINUS      &kp EQUAL
-&none         &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT    &kp DOWN          &kp END            &kp DOT        &kp SINGLE_QUOTE
+&caps_word    &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT    &kp DOWN          &kp END            &kp DOT        &kp SINGLE_QUOTE
 &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8      &kp NUMBER_9  &kp INSERT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp KP_SLASH
 &none         &none         &none           &none             &mo 3         &kp ENTER
             >;

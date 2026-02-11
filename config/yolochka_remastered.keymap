@@ -61,7 +61,7 @@
             label = "LeftFinger";
             bindings = <
 &kp ESCAPE  &none         &none           &none             &none         &trans  &trans  &trans  &trans  &trans
-&kp TAB     &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &trans
+&caps_word  &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &trans
 &none       &none         &none           &none             &none         &trans  &trans  &trans  &trans  &trans
 &none       &none         &none           &trans            &trans        &trans
             >;
@@ -70,9 +70,9 @@
         right-finger {
             label = "RightFinger";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &none          &none              &none            &none          &kp DELETE
-&trans  &trans  &trans  &trans  &trans  &kp LEFT_ALT   &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp RIGHT_GUI  &none
-&trans  &trans  &trans  &trans  &trans  &kp BACKSPACE  &none              &none            &none          &none
+&trans  &trans  &trans  &trans  &trans  &none         &none              &none            &none          &kp DELETE
+&trans  &trans  &trans  &trans  &trans  &kp LEFT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp RIGHT_GUI  &none
+&trans  &trans  &trans  &trans  &trans  &kp INSERT    &none              &none            &none          &none
 &trans  &trans  &trans  &none   &none   &none
             >;
         };
@@ -99,9 +99,9 @@
 
         Upper {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_0   &kp HOME    &kp UP            &kp RIGHT          &kp MINUS      &kp EQUAL
-&caps_word    &none         &kp GRAVE     &kp PAGE_UP   &kp PAGE_DOWN  &kp LEFT    &kp DOWN          &kp END            &kp DOT        &kp SINGLE_QUOTE
-&kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp INSERT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp KP_SLASH
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_0   &kp HOME       &kp UP            &kp RIGHT          &kp MINUS      &kp EQUAL
+&kp TAB       &none         &kp GRAVE     &kp PAGE_UP   &kp PAGE_DOWN  &kp LEFT       &kp DOWN          &kp END            &kp DOT        &kp SINGLE_QUOTE
+&kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp BACKSPACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp KP_SLASH
 &kp ENTER     &mo 3         &none         &none         &mo 3          &kp ENTER
             >;
 

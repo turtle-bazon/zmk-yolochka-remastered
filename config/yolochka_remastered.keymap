@@ -60,7 +60,7 @@
         left-finger {
             label = "LeftFinger";
             bindings = <
-&kp ESCAPE  &none         &none           &none             &none         &trans  &trans  &trans  &trans  &kp DELETE
+&kp ESCAPE  &none         &none           &none             &none         &trans  &trans  &trans  &trans  &trans
 &kp TAB     &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &trans
 &none       &none         &none           &none             &none         &trans  &trans  &trans  &trans  &trans
 &none       &none         &none           &trans            &trans        &trans
@@ -70,7 +70,7 @@
         right-finger {
             label = "RightFinger";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &none         &none              &none            &none          &none
+&trans  &trans  &trans  &trans  &trans  &none         &none              &none            &none          &kp DELETE
 &trans  &trans  &trans  &trans  &trans  &kp LEFT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp RIGHT_GUI  &none
 &trans  &trans  &trans  &trans  &trans  &none         &none              &none            &none          &none
 &trans  &trans  &trans  &none   &none   &none

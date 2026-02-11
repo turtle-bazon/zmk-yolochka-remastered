@@ -81,9 +81,9 @@
         right-finger {
             label = "RightFinger";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &none         &none              &none            &none          &kp DELETE
+&trans  &trans  &trans  &trans  &trans  &none         &none              &none            &none          &kp INSERT
 &trans  &trans  &trans  &trans  &trans  &kp LEFT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp RIGHT_GUI  &none
-&trans  &trans  &trans  &trans  &trans  &kp INSERT    &none              &none            &none          &none
+&trans  &trans  &trans  &trans  &trans  &kp DELETE    &none              &none            &none          &none
 &trans  &trans  &trans  &none   &none   &none
             >;
         };
@@ -107,6 +107,5 @@
 &none           &none         &to 0         &to 0         &none         &none
             >;
         };
-
     };
 };

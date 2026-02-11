@@ -47,14 +47,25 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        default {
             label = "Default";
             bindings = <
 &kp Q  &kp W  &kp E      &kp R      &kp T  &kp Y  &kp U  &kp I      &kp O       &kp P
 &kp A  &kp S  &kp D      &kp F      &kp G  &kp H  &kp J  &kp K      &kp L       &kp SEMICOLON
 &kp Z  &kp X  &kp C      &kp V      &kp B  &kp N  &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&mo 1  &mo 5  &kp SPACE  &kp SPACE  &mo 5  &mo 2
+&mo 2  &mo 1  &kp SPACE  &kp SPACE  &mo 1  &mo 3
             >;
+        };
+
+        upper {
+            bindings = <
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_0   &kp HOME       &kp UP            &kp RIGHT          &kp MINUS      &kp EQUAL
+&kp TAB       &none         &kp GRAVE     &kp PAGE_UP   &kp PAGE_DOWN  &kp LEFT       &kp DOWN          &kp END            &kp DOT        &kp SINGLE_QUOTE
+&kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp BACKSPACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp KP_SLASH
+&kp ENTER     &mo 4         &none         &none         &mo 4          &kp ENTER
+            >;
+
+            label = "Upper";
         };
 
         left-finger {
@@ -81,7 +92,7 @@
             label = "F";
             bindings = <
 &kp F1   &kp F2   &kp F3  &kp F4  &kp F10  &none  &none  &none  &kp F14  &kp F15
-&kp F11  &kp F12  &none   &none   &to 4    &to 4  &none  &none  &kp F16  &kp F17
+&kp F11  &kp F12  &none   &none   &to 5    &to 5  &none  &none  &kp F16  &kp F17
 &kp F5   &kp F6   &kp F7  &kp F8  &kp F9   &none  &none  &none  &none    &none
 &none    &none    &none   &none   &none    &none
             >;
@@ -97,15 +108,5 @@
             >;
         };
 
-        Upper {
-            bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_0   &kp HOME       &kp UP            &kp RIGHT          &kp MINUS      &kp EQUAL
-&kp TAB       &none         &kp GRAVE     &kp PAGE_UP   &kp PAGE_DOWN  &kp LEFT       &kp DOWN          &kp END            &kp DOT        &kp SINGLE_QUOTE
-&kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp BACKSPACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp KP_SLASH
-&kp ENTER     &mo 3         &none         &none         &mo 3          &kp ENTER
-            >;
-
-            label = "upper";
-        };
     };
 };
